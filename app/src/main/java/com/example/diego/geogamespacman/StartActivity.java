@@ -24,7 +24,8 @@ public class StartActivity extends AppCompatActivity {
     }
 
     public void startGame(View v){
-        Intent gameIntent = new Intent(getBaseContext(), MainActivity.class);
+        Intent gameIntent = new Intent(getBaseContext(), QuestionActivity.class);
+        //gameIntent.putExtra("EXTRA_SELECTION", 1);
         startActivity(gameIntent);
         Intent serviceStart = new Intent(getBaseContext(), GameService.class);
         startService(serviceStart);

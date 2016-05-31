@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.diego.geogamespacman.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context=".MappingActivity"
+    tools:showIn="@layout/activity_map">
 
     <com.esri.android.map.MapView
         android:id="@+id/map"

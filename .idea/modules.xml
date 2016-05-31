@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GeoGamesPacman.iml" filepath="$PROJECT_DIR$/GeoGamesPacman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeoGameGeoCHack.iml" filepath="$PROJECT_DIR$/GeoGameGeoCHack.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

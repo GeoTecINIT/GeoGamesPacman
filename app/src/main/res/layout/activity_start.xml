@@ -10,6 +10,104 @@
     tools:context="com.example.diego.geogamespacman.StartActivity"
     android:background="#dcddf2">
 
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2"
+        android:layout_above="@+id/start_btn">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="332dp"
+                    android:layout_height="385dp"
+                    android:id="@+id/opt1"
+                    android:checked="false"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:layout_below="@+id/opt2"
+                    android:layout_alignRight="@+id/start_btn"
+                    android:layout_alignEnd="@+id/start_btn"
+                    android:layout_marginTop="87dp"
+                    android:background="@mipmap/img_park1"
+                    android:textAlignment="inherit"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Aasee"
+                    android:textColor="#2e9907"
+                    android:textColorHighlight="#26fe05"
+                    android:visibility="visible"
+                    android:typeface="sans"
+                    android:width="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+                    android:nestedScrollingEnabled="false"
+                    android:enabled="false"
+                    android:elegantTextHeight="false" />
+
+                <RadioButton
+                    android:layout_width="332dp"
+                    android:layout_height="411dp"
+                    android:id="@+id/opt2"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:text="Botanical Garden"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:layout_above="@+id/start_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="86dp"
+                    android:background="@mipmap/img_park2"
+                    android:textAlignment="inherit"
+                    android:textColor="#2e9907"
+                    android:textColorHighlight="#26fe05" />
+
+                <RadioButton
+                    android:layout_width="332dp"
+                    android:layout_height="411dp"
+                    android:id="@+id/opt3"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:text="Kreutzviertel"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:layout_above="@+id/start_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="86dp"
+                    android:background="@mipmap/img_park3"
+                    android:textAlignment="inherit"
+                    android:textColor="#2e9907"
+                    android:textColorHighlight="#26fe05" />
+
+                <RadioButton
+                    android:layout_width="332dp"
+                    android:layout_height="411dp"
+                    android:id="@+id/opt4"
+                    android:layout_gravity="center_horizontal"
+                    android:checked="false"
+                    android:text="Hesemberg Park"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:layout_above="@+id/start_btn"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="86dp"
+                    android:background="@mipmap/img_park4"
+                    android:textAlignment="center"
+                    android:textColor="#2e9907"
+                    android:textColorHighlight="#26fe05" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,11 +117,12 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:clickable="true"
-        android:background="#464dc5"
+        android:background="#64dd17"
         android:contextClickable="false"
         android:layout_marginRight="10px"
         android:layout_marginTop="10px"
         android:layout_marginBottom="10px"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:allowUndo="false" />
 
 </RelativeLayout>
